@@ -1,13 +1,11 @@
 {
-  "name": "node-beanstalk-test",
+  "name": "beanstalk-node-test",
   "version": "1.0.0",
-  "description": "Test Node.js app for AWS Elastic Beanstalk",
-  "main": "app.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node src/server.js"
   },
   "dependencies": {
-    "express": "^4.19.2",
-    "dotenv": "^16.4.5"
+    "express": "^4.19.2"
   }
 }
